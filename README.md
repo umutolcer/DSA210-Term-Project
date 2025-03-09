@@ -19,7 +19,7 @@ Simply by analyzing my own games and other low elo players, I want to emphazise 
 ---
 
 ## Motivation
-I have been playing this game since 2012 and achieved the greatest rank which is Challeger. This idea is original and nothing like I have seen before. It will be a fun way of practing my data skills. Also, I will come up with significant results since I have experience in that game. I hope to:
+I have been playing this game since 2012 and achieved the greatest rank which is Challeger. Strategy and skills are important in League, and winning the game is related to players' stats. It will be a fun way of practing my data skills. Also, I will come up with significant results since I have experience in that game. I hope to:
 - Realize my mistakes, so that I can improve my gameplay and be a better player.
 - Use the data skills that I learnt in the class on something that I have passion.
 - Create an original and unusual work.
@@ -27,5 +27,15 @@ I have been playing this game since 2012 and achieved the greatest rank which is
 ---
 
 ## Dataset and Tool
-Riot games provide developer tool api for players. I can access match and player information, including my own account and matches, api in JSON format. I will be using Riot Games developer portal for my project. Here are some parameters I will consider:
--
+Riot games provide developer tool api for players. I can access match and player information api, including my own account and matches, in JSON format. I will be using Riot Games developer portal for my project. Here are some parameters I will consider:
+- **Player Rank:** Players have ranks from iron to challenger, which shows their ability to play. Iron is the worst, challenger is the best.
+- **Win:** A player lose or win a certain match. It is significant to show win/rate ratio.
+- **Minion Number:** Each game players farm minions to earn gold in a match. High number of minion means a player is strong in a match.
+- **Vision Score:** Vision scores indicates a player is aware of the situation on the map.
+- **Game Duration:** It shows the time games end.
+- **Baron Takedowns:** Baron is an essential objective and strategy to win the game.
+- **Gold Earned:** Players spend gold on items that strengthen themselves.
+- **Total Damage Dealt:** It shows the damage a player dealt to enemy team.
+- **KDA**: Kill/death/assist ratio shows a players performance in a game.
+- **hadAfkTeammate**: If a player is Away From Keyboard, it is really hard to win for their teammates.
+- **gameEndedInSurrender:** It shows that a team surrender before game is actually ends by destroying the nexus.
