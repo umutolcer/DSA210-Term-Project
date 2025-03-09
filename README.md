@@ -45,10 +45,10 @@ Riot games provide developer tool api for players. I can access match and player
 - **gameEndedInSurrender:** It shows that a team surrender before game is actually ends by destroying the nexus.
 
 Here is an example table of my data:
-| Match ID | Player Rank | Win | Vision Score | Total Minion Kills | Baron Kills | Gold Earned | KDA    | Game Duration | AFK Teammates | Surrendered |
-|----------|-------------|-----|--------------|---------------------|-------------|-------------|--------|---------------|---------------|-------------|
-| TR1_1597270354    | Challenger   | 1   | 11           | 210                 | 2           | 15312      | 16  | 1322    | No            | No          |
-| TR1_1597270234   | Silver | 0   |  4          | 120                 | 0           | 11788      | 6.5 | 2341    | Yes           | Yes         |
+| Match ID        | Player Rank  | Win | Vision Score | Total Minion Kills | Baron Kills | Gold Earned | KDA  | Total Damage Dealt | Game Duration | AFK Teammates | Surrendered |
+|----------------|-------------|-----|--------------|---------------------|-------------|-------------|------|--------------------|---------------|---------------|-------------|
+| TR1_1597270354 | Challenger  | 1   | 11           | 210                 | 2           | 15312       | 16   | 21469              | 1322          | No            | No          |
+| TR1_1597270234 | Silver      | 0   | 4            | 120                 | 0           | 11788       | 6.5  | 13421             | 2341          | Yes           | Yes         |
 
 ---
 
