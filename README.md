@@ -5,8 +5,8 @@ This project investigates the effects of various player actions such as  vision 
 Simply by analyzing my own games and other low elo players, I want to emphazise what low elo players can improve and what are the major differences between low elo and high elo games.
 I will test these two hypotheses:
 
--**Null Hypothesis(H0):** Strategy and objectives do not have an significant impact on players' ranks and win/lose ratio in League of Legends.
--**Alternative Hypothesis(H1):** Strategy and objectives have an significant impact on being successful in League of Legends as they increase win/rate raio and players' ranks.
+- **Null Hypothesis(H0):** Strategy and objectives do not have an significant impact on players' ranks and win/lose ratio in League of Legends. 
+- **Alternative Hypothesis(H1):** Strategy and objectives have an significant impact on being successful in League of Legends as they increase win/rate raio and players' ranks.
 
 ---
 
