@@ -43,3 +43,14 @@ Riot games provide developer tool api for players. I can access match and player
 - **KDA**: Kill/death/assist ratio shows a players performance in a game.
 - **hadAfkTeammate**: If a player is Away From Keyboard, it is really hard to win for their teammates.
 - **gameEndedInSurrender:** It shows that a team surrender before game is actually ends by destroying the nexus.
+
+Here is an example table of my data:
+| Match ID | Player Rank | Win | Vision Score | Total Minion Kills | Baron Kills | Gold Earned | KDA    | Game Duration | AFK Teammates | Surrendered |
+|----------|-------------|-----|--------------|---------------------|-------------|-------------|--------|---------------|---------------|-------------|
+| TR1_1597270354    | Challenger   | 1   | 11           | 210                 | 2           | 15312      | 16  | 1322    | No            | No          |
+| TR1_1597270234   | Silver | 0   |  4          | 120                 | 0           | 11788      | 6.5 | 2341    | Yes           | Yes         |
+
+---
+
+## Analysis Plan
+
