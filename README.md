@@ -52,7 +52,3 @@ Here is an example table of my data:
 
 ---
 
-## Analysis Plan
-1. **Collect the Data:**
--   Collect match data from the Riot Games API and import it into a Pandas DataFrame. Preprocess the data by cleaning wrong match type, normalizing game statistics, and ensuring consistency across different match records.
-2. **
