@@ -6,7 +6,7 @@ Simply by analyzing my own games and other low elo players, I want to emphazise 
 I will test these two hypotheses:
 
 - **Null Hypothesis(H0):** Strategy and objectives do not have an significant impact on players' ranks and win/lose ratio in League of Legends. 
-- **Alternative Hypothesis(H1):** Strategy and objectives have an significant impact on being successful in League of Legends as they increase win/rate raio and players' ranks.
+- **Alternative Hypothesis(H1):** Strategy and objectives have an significant impact on being successful in League of Legends as they increase win/rate ratio and players' ranks.
 
 ---
 
