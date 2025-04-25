@@ -43,12 +43,15 @@ Riot games provide developer tool api for players. I can access match and player
 - **KDA**: Kill/death/assist ratio shows a players performance in a game.
 - **hadAfkTeammate**: If a player is Away From Keyboard, it is really hard to win for their teammates.
 - **gameEndedInSurrender:** It shows that a team surrender before game is actually ends by destroying the nexus.
-
+I processed the parameters as per-minute ratios to prevent long games from causing misinterpretation.
 Here is an example table of my data:
 | Match ID        | Player Rank  | Win | Vision Score | Total Minion Kills | Baron Kills | Gold Earned | KDA  | Total Damage Dealt | Game Duration | AFK Teammates | Surrendered |
 |----------------|-------------|-----|--------------|---------------------|-------------|-------------|------|--------------------|---------------|---------------|-------------|
-| TR1_1597270354 | Challenger  | 1   | 11           | 210                 | 2           | 15312       | 16   | 21469              | 1322          | No            | No          |
-| TR1_1597270234 | Silver      | 0   | 4            | 120                 | 0           | 11788       | 6.5  | 13421             | 2341          | Yes           | Yes         |
+| TR1_1597270354 | Challenger  | True   | 11           | 210                 | 2           | 15312       | 16   | 21469              | 1322          | No            | No          |
+| TR1_1597270234 | Emerald      | False   | 4            | 120                 | 0           | 11788       | 6.5  | 13421             | 2341          | Yes           | Yes         |
 
 ---
+## Future Works
+This project is very suitable to extent as I can reach a lot of parameters such as objective points, damage dealt on turrets, players' roles and champions etc. Each of the parameters can provide a good insight for my project. That's why, I want to focus on processing and interpreting more parameters and adding them to my project.
+In addition, even though, I tried to pick roles in balance, it will be better to pay attention on roles when interpreting the data. For instance, chosing support role players might decrease the minion score, while increase the vision score data. I want to pay attention this classification more in the future.
 
