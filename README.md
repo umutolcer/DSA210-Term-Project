@@ -1,20 +1,20 @@
 # DSA210-Term-Project-LoL-Analysis
 ## Project Overview
-This project investigates the effects of various player actions such as  vision score, total minion kills, and total damage dealt, on the win rate and rank in League of Legends. Additionally, the project compares the relation of having AFK players and early surrenders on teams in different ranks (high vs low). 
+This project investigates the effects of various player actions and skills such as vision score, and total minion kill, on the rank in League of Legends. Additionally, the project compares the relation of elo and surrender rate.
 
-Simply by analyzing my own games and other low elo players, I want to emphazise what low elo players can improve and what are the major differences between low elo and high elo games.
+Simply by comparing high elo games and low games, I want to emphazise what low elo players can improve and what are the major differences between low elo and high elo players.
 I will test these two hypotheses:
 
-- **Null Hypothesis(H0):** Strategy and objectives do not have an significant impact on players' ranks and win/lose ratio in League of Legends. 
-- **Alternative Hypothesis(H1):** Strategy and objectives have an significant impact on being successful in League of Legends as they increase win/rate ratio and players' ranks.
+- **Null Hypothesis(H0):** Strategy and skills do not have an significant impact on players' ranks and surrender ratio in League of Legends. 
+- **Alternative Hypothesis(H1):** Strategy and skills have an significant impact on being successful in League of Legends as they increase players' ranks.
 
 ---
 
 ## Objectives
 1. **Understand Skills of Players**
-   Determine the relationship between parameters such as vision score, total minion killed, AFK number, Surrender rate, Baron kills and Win/Lose rate.
+   Determine the relationship between parameters such as vision score, total minion killed, damage dealt dealt, and Surrender rate.
 2. **Identify Significant Parameters**
-   Emphazise which parameters have the biggest impact to improve League rank and win rate.
+   Emphazise which parameters have the biggest impact to improve League rank.
 3. **Use Data to Improve Myself**
    Utilize insights from data analysis to identify areas of improvement in my own League of Legends games and enhance my overall performance.
 4. **Write a Conclusion**
@@ -23,7 +23,7 @@ I will test these two hypotheses:
 ---
 
 ## Motivation
-I have been playing this game since 2012 and achieved the greatest rank which is Challenger. Strategy and skills are important in League, and winning the game is related to players' stats. It will be a fun way of practing my data skills. Also, I will come up with significant results since I have experience in that game. I hope to:
+I have been playing this game since 2012 and achieved the greatest rank which is Challenger. Strategy and skills are important in League, and winning the game is related to players' skills. It will be a fun way of practing my data skills. Also, I will come up with significant results since I have experience in that game. I hope to:
 - Realize my mistakes, so that I can improve my gameplay and be a better player.
 - Use the data skills that I learnt in the class on something that I have passion.
 - Create an original and unusual work.
