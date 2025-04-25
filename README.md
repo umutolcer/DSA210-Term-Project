@@ -50,7 +50,9 @@ Here is an example table of my data:
 | TR1_1597270354  | Challenger      | True    | 11               | 210                      | 2               | 15312           | 16      | 21469                  | 1322                     | 22.03                     | 9.54                        | No                | No            |
 | TR1_1597270234  | Emerald         | False   | 4                | 120                      | 0               | 11788           | 6.5     | 13421                  | 2341                     | 39.02                     | 3.25                        | Yes               | Yes           |
 
----
+
+
+
 ## Future Work
 
 This project offers numerous avenues for further exploration, with the potential to include a wide range of additional parameters that could provide valuable insights. Some key areas to focus on in future iterations include:
