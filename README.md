@@ -45,21 +45,22 @@ Riot games provide developer tool api for players. I can access match and player
 - **gameEndedInSurrender:** It shows that a team surrender before game is actually ends by destroying the nexus.
 I processed the parameters as per-minute ratios to prevent long games from causing misinterpretation.
 Here is an example table of my data:
- **Match ID**    | **Player Rank** | **Win** | **Vision Score** | **Total Minions Killed** | **Baron Kills** | **Gold Earned** | **KDA** | **Total Damage Dealt** | **Game Duration (secs)** | **Game Duration (mins)** | **Minion Kills per Minute** | **AFK Teammates** | **Surrender** |
-|-----------------|-----------------|---------|------------------|--------------------------|-----------------|-----------------|---------|------------------------|--------------------------|---------------------------|-----------------------------|-------------------|---------------|
-| TR1_1597270354  | Challenger      | True    | 11               | 210                      | 2               | 15312           | 16      | 21469                  | 1322                     | 22.03                     | 9.54                        | No                | No            |
-| TR1_1597270234  | Emerald         | False   | 4                | 120                      | 0               | 11788           | 6.5     | 13421                  | 2341                     | 39.02                     | 3.25                        | Yes               | Yes           |
+
+| **Match ID**    | **Player Rank** | **Win** | **Vision Score** | **Total Minions Killed** | **Baron Kills** | **Gold Earned** | **KDA** | **Total Damage Dealt** | **Game Duration (mins)** | **Minion Kills per Minute** | **AFK Teammates** | **Surrender** |
+|-----------------|-----------------|---------|------------------|--------------------------|-----------------|-----------------|---------|------------------------|--------------------------|-----------------------------|-------------------|---------------|
+| TR1_1597270354  | Challenger      | True    | 11               | 210                      | 2               | 15312           | 16      | 21469                  | 22.03                    | 9.54                        | No                | No            |
+| TR1_1597270234  | Emerald         | False   | 4                | 120                      | 0               | 11788           | 6.5     | 13421                  | 39.02                    | 3.25                        | Yes               | Yes           ||
 
 
 
 
-a
+
 
 ## Future Work
 
 This project offers numerous avenues for further exploration, with the potential to include a wide range of additional parameters that could provide valuable insights. Some key areas to focus on in future iterations include:
 
-1. **Incorporating Additional Metrics:**
+ **Incorporating Additional Metrics:**
    - Beyond the parameters analyzed in this project (such as minions per minute, damage dealt, and vision score), there are many other factors that can help better understand player performance and success in **League of Legends**. These include:
      - **Objective Points:** Data on securing objectives (like dragons, barons, and towers) can shed light on a player's strategic decision-making and teamwork.
      - **Damage to Structures (Turrets):** Understanding how players contribute to damaging turrets and objectives will provide a clearer picture of their role in securing victories.
@@ -67,7 +68,7 @@ This project offers numerous avenues for further exploration, with the potential
    
    By adding more parameters, we can create a more comprehensive analysis that captures the full complexity of **League of Legends** gameplay.
 
-2. **Role-Based Analysis:**
+ **Role-Based Analysis:**
    - While efforts were made to balance roles in the dataset, a more **granular approach** could be beneficial. Player performance is often influenced by their role in the game, and examining the impact of **role classification** on various metrics is crucial. For instance:
      - **Support Role:** Support players typically have lower minion scores but higher vision scores due to their focus on map control, warding, and assisting their team. It's important to consider these differences when interpreting the data.
      - **Other Roles (Jungler, ADC, etc.):** Each role has a unique set of objectives and responsibilities within a game. For example, **Junglers** might have higher damage dealt but lower minion farm compared to **Top Laners**. Analyzing data within the context of specific roles will help avoid misinterpretation and offer a more nuanced understanding of player performance.
