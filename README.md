@@ -31,7 +31,7 @@ I have been playing this game since 2012 and achieved the greatest rank which is
 ---
 
 ## Dataset and Tool
-Riot games provide developer tool api for players. I can access match and player information api, including my own account and matches, in JSON format. I will be using Riot Games developer portal for my project. Here are some parameters I will consider:
+Riot games provide developer tool api for players. I can access match and player information api, including my own account and matches, in JSON format. I will be using Riot Games developer portal for my project. Also,I will use op.gg to take low elo player data. Here are some parameters I will consider:
 - **Player Rank:** Players have ranks from iron to challenger, which shows their ability to play. Iron is the worst, challenger is the best.
 - **Win/Loss:** A player lose or win a certain match. It is significant to show win/rate ratio.
 - **Minion Number:** Each game players farm minions to earn gold in a match. High number of minion means a player is strong in a match.
