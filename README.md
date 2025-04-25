@@ -5,8 +5,8 @@ This project investigates the effects of various player actions and skills such 
 Simply by comparing high elo games and low games, I want to emphazise what low elo players can improve and what are the major differences between low elo and high elo players.
 I will test these two hypotheses:
 
-- **Null Hypothesis(H0):** Strategy and skills do not have an significant impact on players' ranks and surrender ratio in League of Legends. 
-- **Alternative Hypothesis(H1):** Strategy and skills have an significant impact on being successful in League of Legends as they increase players' ranks.
+- **Null Hypothesis(H0):** There is no significant difference between High Elo and Low Elo players in terms of minion score, damage dealt, vision score, and surrender behavior in League of Legends.
+- **Alternative Hypothesis(H1):** There is a significant difference between High Elo and Low Elo players in terms of minion score, damage dealt, vision score, and surrender behavior in League of legends.
 
 ---
 
