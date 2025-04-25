@@ -74,6 +74,12 @@ This project offers numerous avenues for further exploration, with the potential
      - **Other Roles (Jungler, ADC, etc.):** Each role has a unique set of objectives and responsibilities within a game. For example, **Junglers** might have higher damage dealt but lower minion farm compared to **Top Laners**. Analyzing data within the context of specific roles will help avoid misinterpretation and offer a more nuanced understanding of player performance.
 
 ---
+## Findings from Exploratory Data Analysis
 
+Based on the visualizations, it's evident that high elo players demonstrate greater skill across the key metrics.
+
+![Metrics Comparison](metrics_comparison.png)
+
+*Please head to the main.ipynb file for detailed EDA and findings.*
 
 
