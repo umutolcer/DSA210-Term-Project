@@ -198,8 +198,8 @@ To further evaluate model performance, I analyzed **ROC curves** and calculated 
 ### 🎯 Summary
 
 - Ensemble models (**Random Forest**, **XGBoost**) significantly outperform the linear **Logistic Regression**.
-- These results highlight that **in-game performance metrics** can reliably indicate a player's skill tier.
 - **Random Forest** stands out as the most robust and accurate model for this classification task.
+- These results highlight that **in-game performance metrics** can reliably indicate a player's skill tier.
 
 
 
