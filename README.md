@@ -78,7 +78,7 @@ This project offers numerous avenues for further exploration, with the potential
 
 Based on the visualizations, it's evident that high elo players demonstrate greater skill across the key metrics.
 
-![Metrics Comparison](metrics_comparison.png)
+![Metrics Comparison](https://github.com/umutolcer/DSA210-Term-Project/blob/main/data/metrics_comparison.png?raw=tru)
 
 **Hypothesis Testing Results:**
 1. Damage Dealt per Minute: Significant difference **found** (p-value = 0.001).
