@@ -91,7 +91,7 @@ Based on the visualizations, it's evident that high elo players demonstrate grea
 
 ---
 
-## Machine Learning 🤖
+## Machine Learning 
 
 After conducting hypothesis testing, I applied **Machine Learning** methods to classify players into **Low Elo** or **High Elo** categories based on in-game performance metrics such as KDA, vision score, and damage output. These models help explore how well in-game behavior can predict a player's skill tier.
 
@@ -100,7 +100,7 @@ I trained and evaluated three models:
 - **Random Forest Classifier** (nonlinear ensemble model)
 - **XGBoost Classifier** (gradient boosting ensemble model)
 
-*See full implementation in the `main.ipynb` notebook.*
+*Please head to the main.ipynb file to see full implementation.*
 
 ---
 
@@ -179,7 +179,7 @@ I trained and evaluated three models:
 
 ---
 
-### 🔍 ROC Curve & AUC Comparison
+###  ROC Curve & AUC Comparison
 
 To further evaluate model performance, I analyzed **ROC curves** and calculated **AUC (Area Under the Curve)** scores.
 ![image](https://github.com/umutolcer/DSA210-Term-Project/blob/main/data/ROC_Curve.png?raw=true)
@@ -195,7 +195,7 @@ To further evaluate model performance, I analyzed **ROC curves** and calculated 
 
 ---
 
-### 🎯 Summary
+###  Summary
 
 - Ensemble models (**Random Forest**, **XGBoost**) significantly outperform the linear **Logistic Regression**.
 - **Random Forest** stands out as the most robust and accurate model for this classification task.
