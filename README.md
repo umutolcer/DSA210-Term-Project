@@ -182,7 +182,7 @@ I trained and evaluated three models:
 ### 🔍 ROC Curve & AUC Comparison
 
 To further evaluate model performance, I analyzed **ROC curves** and calculated **AUC (Area Under the Curve)** scores.
-![image](https://github.com/user-attachments/assets/4cecd134-3289-4cfd-bf11-5fbdb38d76cd)
+![image](https://github.com/umutolcer/DSA210-Term-Project/blob/main/data/ROC_Curve.png?raw=true)
 
 | Model              | AUC Score |
 |--------------------|-----------|
