@@ -89,4 +89,105 @@ Based on the visualizations, it's evident that high elo players demonstrate grea
 
 *Please head to the main.ipynb file for detailed EDA and findings.*
 
+---
+
+## Machine Learning 🤖
+
+After conducting hypothesis testing, I applied **Machine Learning** methods to classify players into **Low Elo** or **High Elo** categories based on in-game performance metrics such as KDA, vision score, and damage output. These models help explore how well in-game behavior can predict a player's skill tier.
+
+I trained and evaluated three models:
+- **Logistic Regression** (baseline linear classifier)
+- **Random Forest Classifier** (nonlinear ensemble model)
+- **XGBoost Classifier** (gradient boosting ensemble model)
+
+*See full implementation in the `main.ipynb` notebook.*
+
+---
+
+### 1. Logistic Regression
+
+**Logistic Regression** served as a baseline model. It is a simple linear classifier often used for binary classification problems. **0** indicates **Low Elo** while **1** indicates **High Elo**.
+
+**Classification Report**
+| Class          | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| 0 (Low Elo)    | 0.77      | 0.68   | 0.72     | 63      |
+| 1 (High Elo)   | 0.74      | 0.82   | 0.78     | 57      |
+| **Accuracy**   |           |        | **0.76** | **120** |
+| Macro Avg      | 0.76      | 0.75   | 0.75     | 120     |
+| Weighted Avg   | 0.76      | 0.76   | 0.75     | 120     |
+
+**Confusion Matrix**
+|              | Predicted Low | Predicted High |
+|--------------|----------------|----------------|
+| **Actual Low**  | 43             | 20             |
+| **Actual High** | 10             | 47             |
+
+---
+
+### 2. Random Forest Classifier
+
+**Random Forest** is an ensemble model that builds multiple decision trees to capture complex feature interactions. **0** indicates **Low Elo** while **1** indicates **High Elo**.
+
+**Classification Report**
+| Class          | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| 0 (Low Elo)    | 0.85      | 0.87   | 0.86     | 63      |
+| 1 (High Elo)   | 0.86      | 0.84   | 0.85     | 57      |
+| **Accuracy**   |           |        | **0.86** | **120** |
+| Macro Avg      | 0.86      | 0.86   | 0.86     | 120     |
+| Weighted Avg   | 0.86      | 0.86   | 0.86     | 120     |
+
+**Confusion Matrix**
+|              | Predicted Low | Predicted High |
+|--------------|----------------|----------------|
+| **Actual Low**  | 55             | 8              |
+| **Actual High** | 9              | 48             |
+
+---
+
+### 3. XGBoost Classifier
+
+**XGBoost** is a gradient boosting model known for its efficiency and high performance on structured data. **0** indicates **Low Elo** while **1** indicates **High Elo**.
+
+**Classification Report**
+| Class          | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| 0 (Low Elo)    | 0.81      | 0.81   | 0.81     | 63      |
+| 1 (High Elo)   | 0.79      | 0.79   | 0.79     | 57      |
+| **Accuracy**   |           |        | **0.80** | **120** |
+| Macro Avg      | 0.80      | 0.80   | 0.80     | 120     |
+| Weighted Avg   | 0.80      | 0.80   | 0.80     | 120     |
+
+**Confusion Matrix**
+|              | Predicted Low | Predicted High |
+|--------------|----------------|----------------|
+| **Actual Low**  | 51             | 12             |
+| **Actual High** | 12             | 45             |
+
+---
+
+### 🔍 ROC Curve & AUC Comparison
+
+To further evaluate model performance, I analyzed **ROC curves** and calculated **AUC (Area Under the Curve)** scores.
+![image](https://github.com/user-attachments/assets/4cecd134-3289-4cfd-bf11-5fbdb38d76cd)
+
+| Model              | AUC Score |
+|--------------------|-----------|
+| Logistic Regression| 0.7566    |
+| Random Forest      | 0.8882    |
+| XGBoost            | 0.8583    |
+
+- **Random Forest** achieved the highest AUC, confirming its superior ability to distinguish between Low and High Elo players.
+- **XGBoost** followed closely, while **Logistic Regression** was notably less effective.
+
+---
+
+### 🎯 Summary
+
+- Ensemble models (**Random Forest**, **XGBoost**) significantly outperform the linear **Logistic Regression**.
+- These results highlight that **in-game performance metrics** can reliably indicate a player's skill tier.
+- **Random Forest** stands out as the most robust and accurate model for this classification task.
+
+
 
