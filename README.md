@@ -108,20 +108,24 @@ I trained and evaluated three models:
 
 **Logistic Regression** served as a baseline model. It is a simple linear classifier often used for binary classification problems. **0** indicates **Low Elo** while **1** indicates **High Elo**.
 
-**Classification Report**
-| Class          | Precision | Recall | F1-Score | Support |
-|----------------|-----------|--------|----------|---------|
-| 0 (Low Elo)    | 0.77      | 0.68   | 0.72     | 63      |
-| 1 (High Elo)   | 0.74      | 0.82   | 0.78     | 57      |
-| **Accuracy**   |           |        | **0.76** | **120** |
-| Macro Avg      | 0.76      | 0.75   | 0.75     | 120     |
-| Weighted Avg   | 0.76      | 0.76   | 0.75     | 120     |
+**Accuracy**: `0.76`
 
-**Confusion Matrix**
-|              | Predicted Low | Predicted High |
-|--------------|----------------|----------------|
-| **Actual Low**  | 43             | 20             |
-| **Actual High** | 10             | 47             |
+**Classification Report**:
+
+| Class        | Precision | Recall | F1-Score | Support |
+| ------------ | --------- | ------ | -------- | ------- |
+| **0**        | 0.77      | 0.76   | 0.77     | 63      |
+| **1**        | 0.74      | 0.75   | 0.75     | 57      |
+| **Accuracy** |           |        | **0.76** | **120** |
+| Macro Avg    | 0.76      | 0.76   | 0.76     | 120     |
+| Weighted Avg | 0.76      | 0.76   | 0.76     | 120     |
+
+**Confusion Matrix**:
+
+|              | Predicted 0 | Predicted 1 |
+| ------------ | ----------- | ----------- |
+| **Actual 0** | 48          | 15          |
+| **Actual 1** | 14          | 43          |
 
 ---
 
@@ -129,20 +133,24 @@ I trained and evaluated three models:
 
 **Random Forest** is an ensemble model that builds multiple decision trees to capture complex feature interactions. **0** indicates **Low Elo** while **1** indicates **High Elo**.
 
-**Classification Report**
-| Class          | Precision | Recall | F1-Score | Support |
-|----------------|-----------|--------|----------|---------|
-| 0 (Low Elo)    | 0.85      | 0.87   | 0.86     | 63      |
-| 1 (High Elo)   | 0.86      | 0.84   | 0.85     | 57      |
-| **Accuracy**   |           |        | **0.86** | **120** |
-| Macro Avg      | 0.86      | 0.86   | 0.86     | 120     |
-| Weighted Avg   | 0.86      | 0.86   | 0.86     | 120     |
+**Accuracy**: `0.82`
 
-**Confusion Matrix**
-|              | Predicted Low | Predicted High |
-|--------------|----------------|----------------|
-| **Actual Low**  | 55             | 8              |
-| **Actual High** | 9              | 48             |
+**Classification Report**:
+
+| Class        | Precision | Recall | F1-Score | Support |
+| ------------ | --------- | ------ | -------- | ------- |
+| **0**        | 0.82      | 0.84   | 0.83     | 63      |
+| **1**        | 0.82      | 0.79   | 0.80     | 57      |
+| **Accuracy** |           |        | **0.82** | **120** |
+| Macro Avg    | 0.82      | 0.82   | 0.82     | 120     |
+| Weighted Avg | 0.82      | 0.82   | 0.82     | 120     |
+
+**Confusion Matrix**:
+
+|              | Predicted 0 | Predicted 1 |
+| ------------ | ----------- | ----------- |
+| **Actual 0** | 53          | 10          |
+| **Actual 1** | 12          | 45          |
 
 ---
 
@@ -150,20 +158,24 @@ I trained and evaluated three models:
 
 **XGBoost** is a gradient boosting model known for its efficiency and high performance on structured data. **0** indicates **Low Elo** while **1** indicates **High Elo**.
 
-**Classification Report**
-| Class          | Precision | Recall | F1-Score | Support |
-|----------------|-----------|--------|----------|---------|
-| 0 (Low Elo)    | 0.81      | 0.81   | 0.81     | 63      |
-| 1 (High Elo)   | 0.79      | 0.79   | 0.79     | 57      |
-| **Accuracy**   |           |        | **0.80** | **120** |
-| Macro Avg      | 0.80      | 0.80   | 0.80     | 120     |
-| Weighted Avg   | 0.80      | 0.80   | 0.80     | 120     |
+**Accuracy**: `0.80`
 
-**Confusion Matrix**
-|              | Predicted Low | Predicted High |
-|--------------|----------------|----------------|
-| **Actual Low**  | 51             | 12             |
-| **Actual High** | 12             | 45             |
+**Classification Report**:
+
+| Class        | Precision | Recall | F1-Score | Support |
+| ------------ | --------- | ------ | -------- | ------- |
+| **0**        | 0.81      | 0.81   | 0.81     | 63      |
+| **1**        | 0.79      | 0.79   | 0.79     | 57      |
+| **Accuracy** |           |        | **0.80** | **120** |
+| Macro Avg    | 0.80      | 0.80   | 0.80     | 120     |
+| Weighted Avg | 0.80      | 0.80   | 0.80     | 120     |
+
+**Confusion Matrix**:
+
+|              | Predicted 0 | Predicted 1 |
+| ------------ | ----------- | ----------- |
+| **Actual 0** | 51          | 12          |
+| **Actual 1** | 12          | 45          |
 
 ---
 
