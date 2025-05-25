@@ -100,6 +100,10 @@ I trained and evaluated three models:
 - **Random Forest Classifier** (nonlinear ensemble model)
 - **XGBoost Classifier** (gradient boosting ensemble model)
 
+Each model was trained in two phases:
+- **Baseline:** using default parameters
+- **Tuned:** using `GridSearchCV` for hyperparameter optimization
+- 
 *Please head to the main.ipynb file to see full implementation.*
 
 ---
@@ -194,6 +198,15 @@ To further evaluate model performance, I analyzed **ROC curves** and calculated 
 - **XGBoost** followed closely, while **Logistic Regression** was notably less effective.
 
 ---
+
+
+### 📊 AUC Score Comparison (Before vs. After Tuning)
+
+| Model               | Baseline AUC | Tuned AUC |
+|---------------------|--------------|-----------|
+| Logistic Regression | 0.7566       | 0.7580    |
+| Random Forest       | 0.8882       | 0.8894    |
+| XGBoost             | 0.8583       | 0.8585    |
 
 ###  Summary
 
