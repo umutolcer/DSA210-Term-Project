@@ -218,7 +218,11 @@ To further evaluate model performance, I analyzed **ROC curves** and calculated 
 
 **Accuracy**: `0.83`
 ---
-##  Accuracy Comparison (Before vs After Tuning)
+## Comparison Between Tuned vs Basic
+
+![image](https://github.com/umutolcer/DSA210-Term-Project/blob/main/data/Comparison%20Basic%20vs%20Tuned.png?raw=true)
+
+###  Accuracy Comparison (Before vs After Tuning)
 
 | Model               | Accuracy (Baseline) | Accuracy (Tuned) |
 |--------------------|---------------------|------------------|
@@ -233,8 +237,12 @@ To further evaluate model performance, I analyzed **ROC curves** and calculated 
 | Logistic Regression | 0.7566       | 0.7580    |
 | Random Forest       | 0.8882       | 0.8894    |
 | XGBoost             | 0.8583       | 0.8585    |
+- **Random Forest** and **XGBoost** showed noticeable improvement in accuracy after tuning.
+- **AUC scores** also slightly improved or stayed consistent, showing stable classification ability.
+- **Logistic Regression** showed no significant change — this is expected since it has fewer parameters to tune compared to ensemble models.
+- Overall, hyperparameter tuning helped enhance model performance, particularly for more complex models like Random Forest and XGBoost.
 
-###  Summary
+##  Summary
 
 - Ensemble models (**Random Forest**, **XGBoost**) significantly outperform the linear **Logistic Regression**.
 - **Random Forest** stands out as the most robust and accurate model for this classification task.
