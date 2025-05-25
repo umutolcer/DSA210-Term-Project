@@ -14,10 +14,10 @@ I will test these two hypotheses:
 1. **Understand Skills of Players**
    Determine the relationship between parameters such as vision score, total minion killed, damage dealt, and Surrender rate.
 2. **Identify Significant Parameters**
-   Emphazise which parameters have the biggest impact to improve League rank.
-3. **Use Data to Improve Myself**
+   Emphasize which parameters have the biggest impact to improve League rank.
+4. **Use Data to Improve Myself**
    Utilize insights from data analysis to identify areas of improvement in my own League of Legends games and enhance my overall performance.
-4. **Write a Conclusion**
+5. **Write a Conclusion**
    Leverage the skills learned in DSA210 and data analysis to offer real solutions and insights that players can apply to improve their gameplay and rank.
 
 ---
@@ -93,7 +93,7 @@ Based on the visualizations, it's evident that high elo players demonstrate grea
 
 ## Machine Learning 
 
-After conducting hypothesis testing, I applied **Machine Learning** methods to classify players into **Low Elo** or **High Elo** categories based on in-game performance metrics such as KDA, vision score, and damage output. These models help explore how well in-game behavior can predict a player's skill tier.
+After conducting hypothesis testing, I applied **Machine Learning** methods to classify players into **Low Elo** or **High Elo** categories based on in-game performance metrics such as KDA, vision score, and damage output. These models help explore how well in-game behavior can predict a player's skill tier. Model improvements were statistically validated using cross-validation over multiple splits to avoid overfitting to a single test set.
 
 I trained and evaluated three models:
 - **Logistic Regression** (baseline linear classifier)
