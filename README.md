@@ -2,7 +2,7 @@
 ## Project Overview
 This project investigates the effects of various player actions and skills such as vision score, and total minion kill, on the rank in League of Legends. Additionally, the project compares the relation of elo and surrender rate.
 
-Simply by comparing high elo games and low games, I want to emphazise what low elo players can improve and what are the major differences between low elo and high elo players.
+Simply by comparing high elo games and low games, I want to emphasize what low elo players can improve and what are the major differences between low elo and high elo players.
 I will test these two hypotheses:
 
 - **Null Hypothesis(H0):** There is no significant difference between High Elo and Low Elo players in terms of minion score, damage dealt, vision score, and surrender behavior in League of Legends.
@@ -12,7 +12,7 @@ I will test these two hypotheses:
 
 ## Objectives
 1. **Understand Skills of Players**
-   Determine the relationship between parameters such as vision score, total minion killed, damage dealt dealt, and Surrender rate.
+   Determine the relationship between parameters such as vision score, total minion killed, damage dealt, and Surrender rate.
 2. **Identify Significant Parameters**
    Emphazise which parameters have the biggest impact to improve League rank.
 3. **Use Data to Improve Myself**
@@ -33,8 +33,8 @@ I have been playing this game since 2012 and achieved the greatest rank which is
 ## Dataset and Tool
 Riot games provide developer tool api for players. I can access match and player information api, including my own account and matches, in JSON format. I will be using Riot Games developer portal for my project. Also, I will use op.gg to take low elo player data. Here are some parameters I will consider:
 - **Player Rank:** Players have ranks from iron to challenger, which shows their ability to play. Iron is the worst, challenger is the best.
-- **Win/Loss:** A player lose or win a certain match. It is significant to show win/rate ratio.
-- **Minion Number:** Each game players farm minions to earn gold in a match. High number of minion means a player is strong in a match.
+- **Win/Loss:** A player either win or lose a certain match. It is significant to show win/rate ratio.
+- **Minion Number:** Each game players farm minions to earn gold in a match. High number of minion indicates strong laning and farming performance.
 - **Vision Score:** Vision scores indicates a player is aware of the situation on the map.
 - **Game Duration:** It shows the time games end.
 - **Baron Takedowns:** Baron is an essential objective and strategy to win the game.
@@ -42,7 +42,7 @@ Riot games provide developer tool api for players. I can access match and player
 - **Total Damage Dealt:** It shows the damage a player dealt to enemy team.
 - **KDA**: Kill/death/assist ratio shows a players performance in a game.
 - **hadAfkTeammate**: If a player is Away From Keyboard, it is really hard to win for their teammates.
-- **gameEndedInSurrender:** It shows that a team surrender before game is actually ends by destroying the nexus.
+- **gameEndedInSurrender:** It shows that a team surrender before game actually ends by destroying the nexus.
 I processed the parameters as per-minute ratios to prevent long games from causing misinterpretation.
 Here is an example table of my data:
 
