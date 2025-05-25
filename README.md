@@ -198,9 +198,35 @@ To further evaluate model performance, I analyzed **ROC curves** and calculated 
 - **XGBoost** followed closely, while **Logistic Regression** was notably less effective.
 
 ---
+##  Tuned Model Performance
 
+### Tuned Logistic Regression
 
-### 📊 AUC Score Comparison (Before vs. After Tuning)
+**Best Parameters**: `C=0.1`, `penalty='l2'`, `solver='liblinear'`
+
+**Accuracy**: `0.76`
+---
+### Tuned Random Forest Classifier
+
+**Best Parameters**: `n_estimators=200`, `max_depth=10`, `max_features='sqrt'`, `min_samples_split=5`
+
+**Accuracy**: `0.83`
+---
+### Tuned XGBoost Classifier
+
+**Best Parameters**: `n_estimators=100`, `learning_rate=0.2`, `max_depth=5`, `subsample=0.7`, `colsample_bytree=1`
+
+**Accuracy**: `0.83`
+---
+##  Accuracy Comparison (Before vs After Tuning)
+
+| Model               | Accuracy (Baseline) | Accuracy (Tuned) |
+|--------------------|---------------------|------------------|
+| Logistic Regression| 0.76                | 0.76             |
+| Random Forest       | 0.82                | 0.83             |
+| XGBoost             | 0.80                | 0.83             |
+
+###  AUC Score Comparison (Before vs. After Tuning)
 
 | Model               | Baseline AUC | Tuned AUC |
 |---------------------|--------------|-----------|
