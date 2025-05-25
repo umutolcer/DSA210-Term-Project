@@ -103,7 +103,7 @@ I trained and evaluated three models:
 Each model was trained in two phases:
 - **Baseline:** using default parameters
 - **Tuned:** using `GridSearchCV` for hyperparameter optimization
-- 
+  
 *Please head to the main.ipynb file to see full implementation.*
 
 ---
